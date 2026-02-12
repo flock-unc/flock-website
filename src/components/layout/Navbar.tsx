@@ -2,10 +2,11 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { Menu, X } from "lucide-react";
 import { NAV_LINKS } from "@/lib/constants";
 import Button from "@/components/ui/Button";
+
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -16,8 +17,9 @@ export default function Navbar() {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
-            <Image
-              src="/images/flock-logo.png"
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={`${BASE_PATH}/images/flock-logo.png`}
               alt="Flock"
               width={32}
               height={32}
