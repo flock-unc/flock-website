@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme inline {
+  --color-flock: #5BC8F5;
+  --color-flock-dark: #00BFFF;
+  --color-flock-light: #DCF1FD;
+  --color-rose: #FF6B8A;
+  --color-rose-light: #FFF0F3;
+  --color-cream: #F5F0E8;
+  --color-cream-dark: #E8E3DB;
+  --color-ink: #1A1A1A;
+  --color-muted: #999999;
+  --color-muted-dark: #666666;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
