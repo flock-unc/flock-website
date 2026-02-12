@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { NAV_LINKS, LEGAL_LINKS } from "@/lib/constants";
+import { NAV_LINKS, LEGAL_LINKS, CONTACT_EMAIL } from "@/lib/constants";
 
 export default function Footer() {
   return (
@@ -49,24 +49,14 @@ export default function Footer() {
             <h3 className="text-sm font-semibold uppercase tracking-wider text-white">
               Contact
             </h3>
-            <ul className="mt-4 space-y-2">
-              <li>
-                <a
-                  href="mailto:hello@flock.app"
-                  className="hover:text-flock transition-colors"
-                >
-                  hello@flock.app
-                </a>
-              </li>
-              <li>
-                <a
-                  href="mailto:privacy@flock.app"
-                  className="hover:text-flock transition-colors"
-                >
-                  privacy@flock.app
-                </a>
-              </li>
-            </ul>
+            <p className="mt-4">
+              <a
+                href={`mailto:${CONTACT_EMAIL}`}
+                className="hover:text-flock transition-colors"
+              >
+                {CONTACT_EMAIL}
+              </a>
+            </p>
           </div>
         </div>
 

@@ -109,8 +109,4 @@ export const TEAM_MEMBERS: TeamMember[] = [
 export const APP_STORE_LINK = "#";
 export const GOOGLE_PLAY_LINK = "#";
 
-export const CONTACT_EMAILS = [
-  { label: "General Inquiries", email: "hello@flock.app" },
-  { label: "Privacy Concerns", email: "privacy@flock.app" },
-  { label: "Legal Questions", email: "legal@flock.app" },
-] as const;
+export const CONTACT_EMAIL = "contact@flockapp.co";

@@ -59,7 +59,7 @@ export default function PrivacyPage() {
           <h2>6. Contact</h2>
           <p>
             For privacy concerns, contact us at{" "}
-            <a href="mailto:privacy@flock.app">privacy@flock.app</a>.
+            <a href="mailto:contact@flockapp.co">contact@flockapp.co</a>.
           </p>
         </article>
       </Container>
