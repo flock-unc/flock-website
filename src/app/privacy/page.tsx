@@ -110,7 +110,7 @@ export default function PrivacyPage() {
           <h2>8. Contact</h2>
           <p>
             For privacy concerns, contact us at{" "}
-            <a href="mailto:contact@flockapp.co">contact@flockapp.co</a>.
+            <a href="mailto:aryanc1027@gmail.com">aryanc1027@gmail.com</a>.
           </p>
         </article>
       </Container>

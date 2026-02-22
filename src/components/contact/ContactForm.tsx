@@ -11,7 +11,7 @@ export default function ContactForm() {
     e.preventDefault();
     const subject = encodeURIComponent(`Flock Contact: ${name}`);
     const body = encodeURIComponent(`From: ${name} (${email})\n\n${message}`);
-    window.location.href = `mailto:contact@flockapp.co?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:aryanc1027@gmail.com?subject=${subject}&body=${body}`;
   }
 
   const inputClass =

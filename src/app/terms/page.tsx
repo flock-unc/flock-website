@@ -74,7 +74,7 @@ export default function TermsPage() {
           <h2>10. Contact</h2>
           <p>
             For questions about these terms, contact us at{" "}
-            <a href="mailto:contact@flockapp.co">contact@flockapp.co</a>.
+            <a href="mailto:aryanc1027@gmail.com">aryanc1027@gmail.com</a>.
           </p>
         </article>
       </Container>

@@ -109,4 +109,4 @@ export const TEAM_MEMBERS: TeamMember[] = [
 export const APP_STORE_LINK = "#";
 export const GOOGLE_PLAY_LINK = "#";
 
-export const CONTACT_EMAIL = "contact@flockapp.co";
+export const CONTACT_EMAIL = "aryanc1027@gmail.com";
