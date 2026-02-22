@@ -78,6 +78,9 @@ export default function PrivacyPage() {
               and data storage
             </li>
             <li>
+              <strong>Render</strong> — backend server hosting and deployment
+            </li>
+            <li>
               <strong>Sentry</strong> — crash reporting and error diagnostics
               (receives device info and error data, not location)
             </li>
