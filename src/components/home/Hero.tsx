@@ -33,8 +33,8 @@ export default function Hero() {
         <div className="mt-16 mx-auto max-w-xs">
           <div className="rounded-3xl overflow-hidden shadow-lg border border-cream-dark">
             <Image
-              src={`${BASE_PATH}/images/screenshot-heatmap.png`}
-              alt="Flock app showing the live heatmap"
+              src={`${BASE_PATH}/images/screenshot-login.png`}
+              alt="Flock app login screen"
               width={1284}
               height={2778}
               className="w-full h-auto"

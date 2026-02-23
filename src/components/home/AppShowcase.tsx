@@ -15,18 +15,18 @@ const showcaseItems = [
     alt: "Flock heatmap showing venue activity",
   },
   {
-    title: "Connect with Friends",
+    title: "Invite Your Friends",
     description:
-      "Add your crew, see where they are, and make plans on the fly. No more endless group chat coordination.",
+      "Find friends from your contacts and invite them to join Flock. Build your crew and never miss a night out.",
     image: `${BASE_PATH}/images/screenshot-friends.png`,
-    alt: "Flock friends list",
+    alt: "Flock contacts invite screen",
   },
   {
-    title: "Your Profile, Your Way",
+    title: "What's Trending",
     description:
-      "Set up your profile with photos and let friends recognize you. Show up as yourself.",
-    image: `${BASE_PATH}/images/screenshot-profile.png`,
-    alt: "Flock user profile",
+      "See the top spots ranked by real-time foot traffic. Know exactly where the energy is before you head out.",
+    image: `${BASE_PATH}/images/screenshot-trending.png`,
+    alt: "Flock trending venues list",
   },
 ];
 
