@@ -23,11 +23,11 @@ export default function Hero() {
             </p>
 
             <div className="mt-10 flex flex-col sm:flex-row items-center gap-4 md:justify-start justify-center">
-              <Button href="#download" variant="primary">
-                Download the App
-              </Button>
-              <Button href="/features" variant="outline">
+              <Button href="/features" variant="primary">
                 See Features
+              </Button>
+              <Button href="/contact" variant="outline">
+                Contact Us
               </Button>
             </div>
           </div>

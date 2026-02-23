@@ -42,8 +42,8 @@ export default function Navbar() {
 
           {/* Desktop CTA */}
           <div className="hidden md:block">
-            <Button href="#download" variant="primary">
-              Download
+            <Button href="/contact" variant="primary">
+              Contact
             </Button>
           </div>
 
@@ -72,8 +72,8 @@ export default function Navbar() {
                 {link.label}
               </Link>
             ))}
-            <Button href="#download" variant="primary" className="mt-2">
-              Download
+            <Button href="/contact" variant="primary" className="mt-2">
+              Contact
             </Button>
           </div>
         </div>
