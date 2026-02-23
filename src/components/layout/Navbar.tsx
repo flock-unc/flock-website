@@ -42,8 +42,8 @@ export default function Navbar() {
 
           {/* Desktop CTA */}
           <div className="hidden md:block">
-            <Button href="/contact" variant="primary">
-              Contact
+            <Button href="https://forms.gle/SQWN8onz8qGm69m4A" variant="primary">
+              Join Waitlist
             </Button>
           </div>
 
@@ -72,8 +72,8 @@ export default function Navbar() {
                 {link.label}
               </Link>
             ))}
-            <Button href="/contact" variant="primary" className="mt-2">
-              Contact
+            <Button href="https://forms.gle/SQWN8onz8qGm69m4A" variant="primary" className="mt-2">
+              Join Waitlist
             </Button>
           </div>
         </div>
