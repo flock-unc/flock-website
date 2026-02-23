@@ -4,6 +4,7 @@ import Footer from "@/components/layout/Footer";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://flock-unc.github.io/flock-website"),
   title: "Flock — Find Your Flock",
   description:
     "See where people are. Find your friends. Discover what's happening around campus in real-time.",
