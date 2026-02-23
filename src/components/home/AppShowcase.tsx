@@ -1,26 +1,32 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import Container from "@/components/ui/Container";
+
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 const showcaseItems = [
   {
     title: "See the Heatmap",
     description:
       "Open the app and instantly see where people are gathering. Bright spots mean busy venues — find the energy.",
-    imagePlaceholder: "Heatmap Screenshot",
+    image: `${BASE_PATH}/images/screenshot-heatmap.png`,
+    alt: "Flock heatmap showing venue activity",
   },
   {
     title: "Connect with Friends",
     description:
       "Add your crew, see where they are, and make plans on the fly. No more endless group chat coordination.",
-    imagePlaceholder: "Friends Screenshot",
+    image: `${BASE_PATH}/images/screenshot-friends.png`,
+    alt: "Flock friends list",
   },
   {
     title: "Your Profile, Your Way",
     description:
       "Set up your profile with photos and let friends recognize you. Show up as yourself.",
-    imagePlaceholder: "Profile Screenshot",
+    image: `${BASE_PATH}/images/screenshot-profile.png`,
+    alt: "Flock user profile",
   },
 ];
 
@@ -40,10 +46,16 @@ export default function AppShowcase() {
                 i % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
               }`}
             >
-              {/* Image placeholder */}
+              {/* Screenshot */}
               <div className="flex-1 w-full max-w-sm">
-                <div className="aspect-[9/16] rounded-3xl bg-white border border-cream-dark shadow-lg flex items-center justify-center text-muted text-sm">
-                  {item.imagePlaceholder}
+                <div className="rounded-3xl overflow-hidden shadow-lg border border-cream-dark">
+                  <Image
+                    src={item.image}
+                    alt={item.alt}
+                    width={1284}
+                    height={2778}
+                    className="w-full h-auto"
+                  />
                 </div>
               </div>
 
