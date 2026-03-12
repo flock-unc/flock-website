@@ -15,7 +15,7 @@ export default function DownloadCTA() {
           now.
         </p>
         <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
-          <Button href="#" variant="secondary">
+          <Button href="https://apps.apple.com/app/flock-by-anyfield/id6759468125" variant="secondary">
             App Store
           </Button>
           <Button href="#" variant="secondary">
